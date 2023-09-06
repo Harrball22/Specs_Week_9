@@ -2,11 +2,11 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-
+        new HelloWorld();
     }
 
-    public class HelloWorld {
-        public static void main(String[] args) {
+    public static class HelloWorld {
+        public HelloWorld() {
             System.out.println("Hello, World!");
         }
     }
